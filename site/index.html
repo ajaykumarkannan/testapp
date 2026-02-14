@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Shuttermock</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container topbar__inner">
+      <div class="brand">shuttermock</div>
+      <nav class="nav">
+        <a href="#" class="nav__link">Images</a>
+        <a href="#" class="nav__link">Video</a>
+        <a href="#" class="nav__link">Templates</a>
+        <a href="#" class="nav__link">Editorial</a>
+      </nav>
+      <div class="actions">
+        <a class="btn btn--ghost" href="#">Pricing</a>
+        <a class="btn btn--ghost" href="#">Log in</a>
+        <a class="btn btn--primary" href="#">Sign up</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero__bg"></div>
+      <div class="container hero__content">
+        <h1 class="hero__title">Find the perfect image, video, and template</h1>
+        <p class="hero__subtitle">A fast, clean landing page clone for demo purposes.</p>
+
+        <div class="search">
+          <div class="search__tabs" role="tablist" aria-label="Search type">
+            <button class="tab tab--active" type="button">Images</button>
+            <button class="tab" type="button">Video</button>
+            <button class="tab" type="button">Templates</button>
+            <button class="tab" type="button">Music</button>
+          </div>
+          <div class="search__bar">
+            <input class="search__input" placeholder="Search for 'business', 'food', 'Toronto'…" />
+            <button class="btn btn--primary search__btn" type="button">Search</button>
+          </div>
+          <div class="search__chips" aria-label="Popular searches">
+            <a class="chip" href="#">nature</a>
+            <a class="chip" href="#">technology</a>
+            <a class="chip" href="#">people</a>
+            <a class="chip" href="#">backgrounds</a>
+            <a class="chip" href="#">food</a>
+          </div>
+        </div>
+
+        <div class="hero__stats">
+          <div class="stat"><div class="stat__num">475M+</div><div class="stat__label">assets</div></div>
+          <div class="stat"><div class="stat__num">1.5M+</div><div class="stat__label">new per week</div></div>
+          <div class="stat"><div class="stat__num">Simple</div><div class="stat__label">static deploy</div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="strip">
+      <div class="container strip__inner">
+        <div>
+          <h2 class="strip__title">Explore popular categories</h2>
+          <p class="strip__desc">This is a lookalike layout — no scraping of Shutterstock HTML/CSS.</p>
+        </div>
+        <a class="btn btn--ghost" href="#">View all</a>
+      </div>
+    </section>
+
+    <section class="grid container">
+      <article class="card">
+        <div class="card__thumb" style="background:linear-gradient(135deg,#0ea5e9,#22c55e);"></div>
+        <div class="card__body"><h3>Business</h3><p>Clean, modern shots for decks.</p></div>
+      </article>
+      <article class="card">
+        <div class="card__thumb" style="background:linear-gradient(135deg,#f97316,#ef4444);"></div>
+        <div class="card__body"><h3>Food</h3><p>Bright, punchy imagery.</p></div>
+      </article>
+      <article class="card">
+        <div class="card__thumb" style="background:linear-gradient(135deg,#a855f7,#06b6d4);"></div>
+        <div class="card__body"><h3>Technology</h3><p>Abstract + device mockups.</p></div>
+      </article>
+      <article class="card">
+        <div class="card__thumb" style="background:linear-gradient(135deg,#111827,#6b7280);"></div>
+        <div class="card__body"><h3>Backgrounds</h3><p>Textures and gradients.</p></div>
+      </article>
+      <article class="card">
+        <div class="card__thumb" style="background:linear-gradient(135deg,#22c55e,#eab308);"></div>
+        <div class="card__body"><h3>Nature</h3><p>Outdoor and landscape vibes.</p></div>
+      </article>
+      <article class="card">
+        <div class="card__thumb" style="background:linear-gradient(135deg,#06b6d4,#3b82f6);"></div>
+        <div class="card__body"><h3>People</h3><p>Authentic, candid moments.</p></div>
+      </article>
+    </section>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <div class="footer__brand">shuttermock</div>
+        <div class="footer__links">
+          <a href="#">Licensing</a>
+          <a href="#">Help</a>
+          <a href="#">About</a>
+        </div>
+        <div class="footer__note">Static demo site • built for Ajay</div>
+      </div>
+    </footer>
+  </main>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>
